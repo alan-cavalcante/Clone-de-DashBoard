@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Main from '../components/Main'
 import 'tailwindcss/tailwind.css'
+import '../functions/requisitions'
 
 export default function Home() {
   return (
