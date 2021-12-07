@@ -18,6 +18,8 @@ export function AppProvider(props) {
     }
     
     async function requisitionHandler(e) {
+        e === 'Daily' ? setPeriodoAtual('Yesterday') : e === 'Weekly' ? setPeriodoAtual('Last Week') : setPeriodoAtual('Last Month')
+        
         let yy = []
         let x = await fetch('http://localhost:3000/api/dados')
         .then(res => res.json())
@@ -38,11 +40,13 @@ export function AppProvider(props) {
     
     const [objCurrent, setObjCurrent] = useState('')
     const [objPrevious, setObjPrevious] = useState('')
+    const [periodoAtual, setPeriodoAtual] = useState('')
     
     return (
         <AppContext.Provider value={{
-            nome: 'Alfredo',
+            nome: 'Jeremy',
             sobrenome: 'Neto',
+            speriodoatual: periodoAtual,
             workcurrent: objCurrent[0],
             workprevious: objPrevious[0],
             playcurrent: objCurrent[1],

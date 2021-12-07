@@ -20,12 +20,12 @@ function Card(props) {
 
             {/* Gera o SVG correspondente */}
             <div className="flex justify-end px-5">
-                {props.nome == 'Play' ? <Image src="/icon-play.svg" height={50} width={50} objectFit="contain" className=" right" /> :
-                    props.nome == 'Study' ? <Image src="/icon-study.svg" height={50} width={50} objectFit="contain" className=" right" /> :
-                        props.nome == 'Work' ? <Image src="/icon-Work.svg" height={50} width={50} objectFit="contain" className=" right" /> :
-                            props.nome == 'Exercise' ? <Image src="/icon-Exercise.svg" height={50} width={50} objectFit="contain" className=" right" /> :
-                                props.nome == 'Social' ? <Image src="/icon-Social.svg" height={50} width={50} objectFit="contain" className=" right" /> :
-                                    <Image src="/icon-self-care.svg" height={50} width={50} objectFit="contain" className=" right" />}
+                {props.nome == 'Play' ? <Image src="/icon-play.svg" height={50} width={50} objectFit="contain" alt="Play" /> :
+                    props.nome == 'Study' ? <Image src="/icon-study.svg" height={50} width={50} objectFit="contain" alt="Study" /> :
+                        props.nome == 'Work' ? <Image src="/icon-work.svg" height={50} width={50} objectFit="contain" alt="Work" /> :
+                            props.nome == 'Exercise' ? <Image src="/icon-exercise.svg" height={50} width={50} objectFit="contain" alt="Exercise" /> :
+                                props.nome == 'Social' ? <Image src="/icon-social.svg" height={50} width={50} objectFit="contain" alt="Social" /> :
+                                    <Image src="/icon-self-care.svg" height={50} width={50} objectFit="contain" alt="Self-care" />}
             </div>
 
             {/* Card com as informações */}
