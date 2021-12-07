@@ -12,9 +12,7 @@ This is a solution to the [Time tracking dashboard challenge on Frontend Mentor]
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -28,8 +26,8 @@ Users should be able to:
 
 ### Screenshot
 
-[Web](./screenshot.png)
-[Mobile](./screenshot2.png)
+[Web](./public/screenshot.png)
+[Mobile](./public/screenshot-mobile.png)
 
 
 ### Links
@@ -63,4 +61,4 @@ Users should be able to:
 ## Author
 
 - Github - [alan-cavalcante](https://github.com/alan-cavalcante)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/alan-cavalcante)
+- Frontend Mentor - [@alan-cavalcante](https://www.frontendmentor.io/profile/alan-cavalcante)
